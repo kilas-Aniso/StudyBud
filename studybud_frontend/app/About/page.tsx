@@ -4,7 +4,7 @@ import { FaUniversity, FaUsers, FaLaptop } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="bg-[var(--background)] text-black min-h-screen ">
+    <div className="bg-[var(--background)] text-black min-h-screen mb-[-15%]">
       <h1 className="text-5xl font-bold text-[#2E1A47] text-center mb-6">Why StudyBud</h1>
 
       <p className="text-lg text-gray-700 max-w-3xl text-center mx-auto mb-10">

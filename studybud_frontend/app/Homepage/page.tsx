@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { FaUserFriends, FaBookOpen } from "react-icons/fa"; // Icons for StudyBuddy & Resources
+import { FaUserFriends, FaBookOpen } from "react-icons/fa";
 import Link from "next/link";
 
 const Homepage = () => {

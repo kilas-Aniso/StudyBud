@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Homepage = () => {
   return (
-    <div className="bg-[var(--background)] text-black min-h-screen mt-[-3%] mb-[-22%]">
+    <div className="bg-[var(--background)] text-black min-h-screen mt-[-3%] mb-[-35%]">
       <div className="text-center max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-yellow-600">
           Easily Find University Resources & Study Partners

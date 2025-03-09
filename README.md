@@ -1,55 +1,42 @@
-# StudyBud
+# StudyBud – Project Story  
 
-## Overview
+## Inspiration  
+Finding a study partner can be challenging, especially in a new academic environment. Before university, I had peers to ask questions and study with, making learning easier. However, transitioning to university meant navigating courses and materials alone, making it harder to connect with people or form study groups. Many students face the same challenge and it is almost everyone's first year experience.
 
-University life can be overwhelming, especially for new students trying to navigate resources and find study groups. StudyBud is designed to solve two major challenges students face at Queen’s University:
+Additionally, my experience in **HLTH 102** this semester introduced me to many campus resources that I wouldn’t have known existed. The professor provided direct links to various student services, making it easy to access them and looking back they are all resources that i wouldnt have come across
 
-- The difficulty of finding study partners for peer learning and collaboration.
-- The frustration of searching for university resources without knowing where to start.
+## What StudyBud does
+StudyBud is a **peer-to-peer academic support platform** that solves two main problems:  
+1. **Finding a Study Partner** – Students can post and browse study requests based on subject and availability, making it easier to connect.  
+2. **Accessing University Resources** – StudyBud centralizes important student resources into one categorized and searchable platform.  
 
-StudyBud centralizes academic and student resources while making it easier for students to connect with study partners.
+## How I Built It  
+### Tech Stack  
+- **Frontend:** Next.js  
+- **Backend:** Django  
+- **Database:** PostgreSQL  
+- **Languages:** Python and Javascrispt  
+- **Deployment:**  Heroku for backend and Vercel for frontend
+  - **Frontend:** [StudyBud on Vercel](https://study-bud-seven.vercel.app/)  
+  - **Backend:** [StudyBud API on Heroku](https://studybud-b6d2e1c031ed.herokuapp.com/api/) 
+  - **Github Repo** [https://github.com/kilas-Aniso/StudyBud.git)   
 
-🔗 **Live Demo:** [StudyBud on Vercel](https://study-bud-seven.vercel.app/)  
-🔗 **API Endpoint:** [StudyBud Backend on Heroku](https://studybud-b6d2e1c031ed.herokuapp.com/api/)
+## Challenges I Ran Into  
+- **Deploying the backend to Heroku** – Faced issues with **PostgreSQL migrations**, but successfully debugged and deployed the backend.  
+- **Time Constraints** – Completing a full-stack project in **24 hours** as a **solo participant** was a challenge, but I stayed focused on delivering an MVP.  
 
-## The Problem
+## Accomplishments That I'm Proud Of  
+- **My First Hackathon** – Competing solo and managing the full-stack development process.  
+- **Building a Functional MVP in 24 Hours** – From ideation to deployment, I successfully created a working platform.  
 
-### 1. Finding a Study Partner
-Many students, especially first-years, find it difficult to connect with peers for studying or even making friends. Peer-to-peer learning is a highly effective way to understand complex concepts, yet students often struggle to find a study group or partner despite their desire to collaborate.
+## What I Learned  
+I have learned that there is so much potential in us, but it only comes out when we are challenged to do big things within a short amount of time. Looking back, I am truly impressed by what I have been able to accomplish in just 24 hours.
 
-### 2. Accessing University Resources
-Queen’s University offers a wide range of resources, but students often face challenges in discovering them. The information is scattered across multiple platforms and takes time for one to get exposed to all of them.
+## What's Next for StudyBud  
+If given more time, I hope to continue working on StudyBud and implement:  
+- **Bring this idea to life** - I believe StudyBud has the potential to be an essential **student tool** at Queen’s University.
+- **Full Authentication System** – Ensuring only **Queen’s University students** can access the StudyBuddy feature.  
+- **Real-time Chat Feature** – Allowing students to message their study partners directly instead of using email.  
 
-## The Solution
 
-StudyBud is a platform that:
 
-- Connects students with study partners based on their courses and availability.
-- Centralizes Queen’s University resources into an easily searchable and categorized platform.
-- Reduces the time spent searching for help, whether academic, mental health, extracurricular, or career-related.
-
-## Features
-
-### StudyBuddy
-- Students can post study requests specifying their subject, availability, and a brief description.
-- Peers can browse study requests and express interest in connecting.
-- Contact details are displayed to facilitate easy communication.
-
-### University Resources
-- A categorized directory of key student resources at Queen’s University.
-- A search function that allows students to quickly find what they need.
-- Tags for easy filtering of resources.
-
-## Tech Stack
-
-- **Frontend:** Next.js
-- **Backend:** Django
-- **Database:** PostgreSQL
-- **Deployment:** Vercel (Frontend), Heroku (Backend)
-
-## Future Improvements
-
-If given more time beyond the 24-hour hackathon, I would expand the project to include:
-
-- A full authentication system to ensure only Queen’s University students can access the StudyBuddy feature.
-- A real-time chatbot for instant messaging between study buddies instead of conversation via email.

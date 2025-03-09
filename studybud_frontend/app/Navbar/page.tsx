@@ -7,7 +7,6 @@ const Navbar = () => {
     <div className="navbar py-6 bg-[var(--background)]">
       <nav className="navbar container mx-auto px-6">
         <div className="flex items-center justify-between">
-          {/* Logo */}
           <Link href="/">
             <Image
               src="/images/logo.png"
